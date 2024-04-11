@@ -1,0 +1,11 @@
+{
+    "escolas": {
+        "traducao": "Escolas",
+        "acoes": {
+            "index": "Listagem",
+            "add": "Novo(a)",
+            "view": "Consulta",
+            "edit": "Editar"
+        }
+    }
+}
