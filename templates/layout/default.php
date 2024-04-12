@@ -127,25 +127,7 @@
 
             <!-- Sidebar Menu -->
             <nav class="mt-2">
-                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                    <li class="nav-item"><?= $this->Html->link('<i class="fas fa-calendar-alt"></i> <p>Escolas</p>', ['controller' => 'escolas', 'action' => 'index'], ['escape' => false, 'class' => 'nav-link']); ?></li>
-
-                    <li class="nav-item has-treeview">
-                        <a href="#" class="nav-link">
-                            <i class="fa fa-calculator"></i>
-                            <p>
-                                Teste
-                                <i class="right fas fa-angle-left"></i>
-                            </p>
-                        </a>
-
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item"><?= $this->Html->link('<i class="far fa-circle nav-icon"></i> <p>Teste</p>', ['controller' => 'escolas', 'action' => 'add'], ['escape' => false, 'class' => 'nav-link']); ?></li>
-                            <li class="nav-item"><?= $this->Html->link('<i class="far fa-circle nav-icon"></i> <p>Teste 2</p>', ['controller' => 'escolas', 'action' => 'edit'], ['escape' => false, 'class' => 'nav-link']); ?></li>
-                            <li class="nav-item"><?= $this->Html->link('<i class="far fa-circle nav-icon"></i> <p>Teste 3</p>', ['controller' => 'escolas', 'action' => 'teste'], ['escape' => false, 'class' => 'nav-link']); ?></li>
-                        </ul>
-                    </li>
-                </ul>
+                <?= $this->element('menu_admin') ?>
             </nav>
         </div>
     </aside>
@@ -179,30 +161,14 @@
             <div class="container-fluid">
                 <?= $this->Flash->render() ?>
 
-                <?php if (isset($layout_sem_box)): ?>
-                    <?= $this->fetch('content') ?>
-                <?php else: ?>
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                <?= $titulos['controller']; ?>
-                            </h3>
-
-                            <div class="card-tools">
-                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                                    <i class="fas fa-minus"></i>
-                                </button>
-                                <button type="button" class="btn btn-tool" data-card-widget="remove">
-                                    <i class="fas fa-times"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <!-- /.card-header -->
+                        <div class="card">
                         <div class="card-body">
+
                             <?= $this->fetch('content') ?>
                         </div>
-                    </div>
-                <?php endif; ?>
+                        </div>
+
+
                 <br/>
             </div>
         </section><!-- /.content -->

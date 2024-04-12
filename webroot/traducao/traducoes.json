@@ -1,11 +1,141 @@
 {
-    "escolas": {
-        "traducao": "Escolas",
+    "usuarios": {
+        "traducao": "Usuários",
         "acoes": {
-            "index": "Listagem",
+            "index": "Index",
             "add": "Novo(a)",
-            "view": "Consulta",
+            "view": "Visualizar",
+            "edit": "Editar",
+            "pesquisar": "Pesquisar",
+            "perfil": "Perfil"
+        }
+    },
+    "grupos": {
+        "traducao": "Grupos",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
+            "edit": "Editar",
+            "pesquisar": "Pesquisar"
+        }
+    },
+    "locacoes": {
+        "traducao": "Locações",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
+            "edit": "Editar"
+        }
+    },
+    "arquiteturas": {
+        "traducao": "Arquiteturas",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
+            "edit": "Editar"
+        }
+    },
+    "tipos": {
+        "traducao": "Tipos",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
+            "edit": "Editar"
+        }
+    },
+    "profissionais": {
+        "traducao": "Profisioanais",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
+            "edit": "Editar"
+        }
+    },
+    "servicosprestados": {
+        "traducao": "Serviços Prestados",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
+            "edit": "Editar"
+        }
+    },
+    "bairros": {
+        "traducao": "Bairros",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
+            "edit": "Editar"
+        }
+    },
+    "noticias": {
+        "traducao": "Noticias",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
+            "edit": "Editar"
+        }
+    },
+    "imagens": {
+        "traducao": "Imagens",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
+            "edit": "Editar"
+        }
+    },
+    "producoes": {
+        "traducao": "Produções ",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
+            "edit": "Editar"
+        }
+    },
+    "portifolios": {
+        "traducao": "Portifolios ",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
+            "edit": "Editar"
+        }
+    },
+    "tfilmes": {
+        "traducao": "TFilmes ",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
+            "edit": "Editar"
+        }
+    },
+    "timagens": {
+        "traducao": "TImagens ",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
+            "edit": "Editar"
+        }
+    },
+    "tlocacoes": {
+        "traducao": "TLocações ",
+        "acoes": {
+            "index": "Index",
+            "add": "Novo(a)",
+            "view": "Visualizar",
             "edit": "Editar"
         }
     }
 }
+
