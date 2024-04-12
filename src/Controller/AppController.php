@@ -41,7 +41,7 @@ class AppController extends Controller
     public function initialize(): void
     {
         parent::initialize();
-
+        $this->viewBuilder()->setLayout('publico');
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
 
@@ -81,4 +81,7 @@ class AppController extends Controller
         ]);
         */
     }
+
+   
+
 }

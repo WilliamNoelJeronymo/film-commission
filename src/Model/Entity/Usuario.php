@@ -53,4 +53,11 @@ class Usuario extends Entity
     protected $_hidden = [
         'token',
     ];
+
+    protected function _setSenha(string $senha) : ?string
+    {
+        if (strlen($senha) > 0) {
+            return (new DefaultPasswordHasher())->hash($senha);
+        }
+    }
 }

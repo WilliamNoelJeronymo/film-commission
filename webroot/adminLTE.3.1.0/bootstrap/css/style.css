@@ -1,0 +1,56 @@
+#home .video-conteiner {
+  height: 30vh;
+}
+
+#home .video-conteiner video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* ----- sobre ----- */
+
+#sobre iframe {
+  max-width: 100%;
+}
+
+/* ----- porque ----- */
+
+/* ----- comite ------ */
+
+#comite .container {
+  background-color: #eee;
+}
+
+#comite img {
+  /* filter: grayscale(1); */
+}
+
+footer {
+  background-color: rgb(33, 37, 41);
+  color: white;
+}
+
+#fale-conosco, #publico {
+  height: 100vh;
+}
+
+#publico .caixa-dados-cor, #fale-conosco .caixa-dados-cor {
+  background-color: #eee;
+}
+
+/* ----- configurações gerais ----- */
+
+#publico .form-control:focus {
+  box-shadow: none;
+  border-color: #dee2e6;
+}
+
+.borda {
+  border: 1px solid purple;
+}
+
+#destaque-noticias .sombra {
+  text-shadow: 1px 1px 1px black;
+}

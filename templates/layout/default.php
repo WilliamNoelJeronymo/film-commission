@@ -91,10 +91,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?= $this->Url->build(['controller' => 'usuarios', 'action' => 'sair']) ?>">
-                    <i class="fas fa-sign-out-alt"></i>
-                    Sair
-                </a>
+                <?= $this->Html->link('<i class="fas fa-sign-out-alt"></i> Sair', ['controller' => 'usuarios', 'action' => 'logout'], ['class' => 'nav-link', 'escape' => false]) ?>
             </li>
         </ul>
     </nav>
